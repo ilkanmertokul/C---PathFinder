@@ -1,5 +1,7 @@
 # C---PathFinder
 
+YOU SHOULD READ REPORT TO SEE HOW IT IS WRITTEN. THIS README EXPLAINS HOW TO USE PROGRAM.
+
 # Objective
 You are expected to write an “advanced” file search program for POSIX compatible operating
 systems. Your program must be able to search for files satisfying the given criteria, and print out the
