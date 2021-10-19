@@ -13,12 +13,10 @@ employed):
 pipe, l: symbolic link)<br />
 • -p : permissions, as 9 characters (e.g. ‘rwxr-xr--’)<br />
 • -l: number of links<br />
-The symbol + means one or more of the character preceding it. You are to implement it on your
-own. Don’t use a library for regexp parsing. + is the only regexp operator to support, at its
+The symbol + means one or more of the character preceding it. + is the only regexp operator to support, at its
 simplest form; no braces or brackets (i.e. { or } or [ or ]) just one or more of the preceding
-character. Check the output example for more details. Ask questions at the forum if it’s still unclear.
-Let’s simplify this, because I grew tired of your emails. You can have multiple occurrences of + as
-regexp; e.g. los+t+file that matches lossssstttttfile for instance. We’ll assume that the user will never
+character.
+e.g. los+t+file that matches lossssstttttfile for instance. We’ll assume that the user will never
 search for strings containing the actual ASCII ‘+’ character. So there is no need for escape
 characters either. Just implement the + regexp, that’s all!<br />
 The program will additionally receive as mandatory parameter:<br />
