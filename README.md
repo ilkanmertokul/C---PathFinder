@@ -1,10 +1,10 @@
 # C---PathFinder
 
-#Objective
+# Objective
 You are expected to write an “advanced” file search program for POSIX compatible operating
 systems. Your program must be able to search for files satisfying the given criteria, and print out the
 results in the form of a nicely formatted tree.
-#How
+# How
 The search criteria can be any combination of the following (at least one of them must be
 employed):
 • -f : filename (case insensitive), supporting the following regular expression: +
@@ -24,7 +24,7 @@ characters either. Just implement the + regexp, that’s all!
 The program will additionally receive as mandatory parameter:
 • -w: the path in which to search recursively (i.e. across all of its subtrees)
 You can use the getopt() library method for parsing command-line arguments.
-#Example
+# Example
 ./myFind -w targetDirectoryPath -f ‘lost+file‘ -b 100 -t b
 means it will search in the targetDirectoryPath path, for block device files named lost+file of
 size exactly 100 bytes
