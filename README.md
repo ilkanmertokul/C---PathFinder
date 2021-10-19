@@ -41,7 +41,7 @@ If no file satisfying the search criteria has been found, then simple output “
 messages are to be printed to stderr. All system calls are to be checked for failure and the user is to
 be notified accordingly.
 
-#REPORT
+# REPORT
 
 ## Design Choice on Parsing Command Line:
 ### This part explained is in main.c , Lines 108 -to-164
