@@ -1,8 +1,8 @@
 # C---PathFinder
 
 # Objective
-You are expected to write an “advanced” file search program for POSIX compatible operating
-systems. Your program must be able to search for files satisfying the given criteria, and print out the
+Write an “advanced” file search program for POSIX compatible operating
+systems. Program must be able to search for files satisfying the given criteria, and print out the
 results in the form of a nicely formatted tree.
 # How
 The search criteria can be any combination of the following (at least one of them must be
